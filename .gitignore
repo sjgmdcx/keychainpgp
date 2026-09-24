@@ -30,3 +30,9 @@ crates/keychainpgp-ui/frontend/src/lib/paraglide/
 *.dll
 *.so
 *.dylib
+
+# Ignore PGP / GPG keys and certificates
+*.asc
+*.gpg
+*.key
+*.pub
